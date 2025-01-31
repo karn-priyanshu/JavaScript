@@ -33,7 +33,7 @@ for (let i = 0; i < priceInputvalue.length; i++) {
 
         if (minp > maxp - priceGap) {
             priceInputvalue[0].value = maxp - priceGap;
-            minp = maxp - priceGap;
+            minp = maxp - priceGap; 
 
             if (minp < 0) {
                 priceInputvalue[0].value = 0;
