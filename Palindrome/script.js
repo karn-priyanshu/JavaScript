@@ -32,4 +32,4 @@ button.addEventListener("click", () => {
   setTimeout(() => {
     result.classList.add(isPalindrome ? "success" : "error");
   }, 10);
-});
+}); 
